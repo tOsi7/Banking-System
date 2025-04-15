@@ -105,24 +105,7 @@ Taron Osifo*/
 		
 		cout << "+" << setfill('-') << setw(37) <<"+" << endl;
 	}
-	void Euid(){
-	/*Prints student information*/
-	 cout << "+" << setw(40) << setfill('-') << "+\n";
-   for(int i=0; i<4; ++i)
-   {
-   cout << "|" << setw(40) << setfill(' ') << "|\n";
-   if(i==0)
-   {
-       cout << "|" << setw(15) << setfill(' ') <<"  Computer Science and Engineering "<< setw(5) << "|\n";
-   }
-   else if(i==1)
-   {
-       cout << "|" << setw(15) << setfill(' ') <<"   CSCE 1040 - Computer Science II "<< setw(5) << "|\n";
-   }
-   else if(i==2)
-   {
-       cout << "|" << setw(10) << setfill(' ') <<" Taron Osifo to0150 to0150@my.unt.edu"<< setw(3) << "|\n";
-   }
+	
    }
    cout << "+" << setw(40) << setfill('-') << "+\n" << endl;
 	
