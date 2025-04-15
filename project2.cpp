@@ -7,7 +7,7 @@ Exits when the user is done using its functions.*/
 #include "project2.h"
 
 int main(){
-	Euid();
+	
 	int *ch; //switch case value
 	bool quit=false;//for while loop to continue
 	vector <Account> acct;//Vector of Account type to hold values
